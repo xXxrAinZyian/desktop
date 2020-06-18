@@ -95,7 +95,7 @@
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.13.1",
     "parallel-webpack": "^2.3.0",
-    "prettier": "^1.19.0",
+    "prettier": "^2.0.5",
     "request": "^2.72.0",
     "rimraf": "^2.5.2",
     "sass-loader": "^7.0.1",
