@@ -39,7 +39,7 @@ export async function setupFixtureRepository(
     Path.join(testRepoPath, '.git')
   )
 
-  const ignoreHiddenFiles = function(item: KlawEntry) {
+  const ignoreHiddenFiles = function (item: KlawEntry) {
     const basename = Path.basename(item.path)
     return basename === '.' || basename[0] !== '.'
   }

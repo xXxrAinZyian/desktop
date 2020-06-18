@@ -180,9 +180,7 @@ export class BranchPruner {
     }
 
     // Get all branches checked out within the past 2 weeks
-    const twoWeeksAgo = moment()
-      .subtract(2, 'weeks')
-      .toDate()
+    const twoWeeksAgo = moment().subtract(2, 'weeks').toDate()
     const recentlyCheckedOutBranches = await getBranchCheckouts(
       this.repository,
       twoWeeksAgo

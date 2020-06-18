@@ -12,7 +12,7 @@ export type Shell = Darwin.Shell | Win32.Shell | Linux.Shell
 export type FoundShell = IFoundShell<Shell>
 
 /** The default shell. */
-export const Default = (function() {
+export const Default = (function () {
   if (__DARWIN__) {
     return Darwin.Default
   } else if (__WIN32__) {
