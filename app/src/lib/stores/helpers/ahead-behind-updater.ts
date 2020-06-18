@@ -152,9 +152,7 @@ export class AheadBehindUpdater {
     const newRefsToCompare = new Set<string>(filterBranchesNotInCache(branches))
 
     log.debug(
-      `[AheadBehindUpdater] - found ${
-        newRefsToCompare.size
-      } comparisons to perform`
+      `[AheadBehindUpdater] - found ${newRefsToCompare.size} comparisons to perform`
     )
 
     for (const sha of newRefsToCompare) {
