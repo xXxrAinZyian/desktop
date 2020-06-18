@@ -23,6 +23,7 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "avoid",
   "editor.formatOnSave": true,
   "prettier.ignorePath": ".prettierignore",
   "tslint.ignoreDefinitionFiles": true,
