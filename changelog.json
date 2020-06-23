@@ -1,5 +1,6 @@
 {
   "releases": {
+    "2.5.3-test2": ["Testing launching BBEdit using new entitlments - #9908"],
     "2.5.3-beta2": [
       "[Added] Stash changes without switching branches - #10032",
       "[Fixed] Support launching Desktop from WSL on Windows - #4998. Thanks @shawnfunke!",
