@@ -1,5 +1,6 @@
 {
   "releases": {
+    "2.5.4-test1": ["Testing #10110"],
     "2.5.3": [
       "[Added] Stash changes without switching branches - #10032",
       "[Added] Discard selection of lines from a file - #9728",
