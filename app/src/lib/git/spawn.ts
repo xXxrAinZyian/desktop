@@ -1,5 +1,5 @@
 import { GitProcess } from 'dugite'
-import * as GitPerf from '../../ui/lib/git-perf'
+import { measure } from '../../ui/lib/git-perf'
 import { isErrnoException } from '../errno-exception'
 
 type ProcessOutput = {
@@ -32,7 +32,7 @@ export function spawnAndComplete(
   stdOutMaxLength?: number
 ): Promise<ProcessOutput> {
   const commandName = `${name}: git ${args.join(' ')}`
-  return GitPerf.measure(
+  return measure(
     commandName,
     () =>
       new Promise<ProcessOutput>((resolve, reject) => {

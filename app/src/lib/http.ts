@@ -1,4 +1,4 @@
-import * as appProxy from '../ui/lib/app-proxy'
+import { getVersion } from '../ui/lib/app-proxy'
 import { URL } from 'url'
 
 /** The HTTP methods available. */
@@ -147,7 +147,7 @@ export function request(
 /** Get the user agent to use for all requests. */
 function getUserAgent() {
   const platform = __DARWIN__ ? 'Macintosh' : 'Windows'
-  return `GitHubDesktop/${appProxy.getVersion()} (${platform})`
+  return `GitHubDesktop/${getVersion()} (${platform})`
 }
 
 /**

@@ -10,7 +10,7 @@ import { getDotComAPIEndpoint } from '../api'
 
 import { IGitAccount } from '../../models/git-account'
 
-import * as GitPerf from '../../ui/lib/git-perf'
+import { measure } from '../../ui/lib/git-perf'
 import Path from 'path'
 import { Repository } from '../../models/repository'
 import { getConfigValue, getGlobalConfigValue } from './config'
@@ -133,7 +133,7 @@ export async function git(
 
   const commandName = `${name}: git ${args.join(' ')}`
 
-  const result = await GitPerf.measure(commandName, () =>
+  const result = await measure(commandName, () =>
     GitProcess.exec(args, path, opts)
   ).catch(err => {
     // If this is an exception thrown by Node.js (as opposed to

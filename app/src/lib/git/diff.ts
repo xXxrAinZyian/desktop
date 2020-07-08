@@ -1,5 +1,5 @@
-import * as fileSystem from '../../lib/file-system'
 import Path from 'path'
+import { readFile } from '../../lib/file-system'
 
 import { getBlobContents } from './show'
 
@@ -444,9 +444,7 @@ export async function getWorkingDirectoryImage(
   repository: Repository,
   file: FileChange
 ): Promise<Image> {
-  const contents = await fileSystem.readFile(
-    Path.join(repository.path, file.path)
-  )
+  const contents = await readFile(Path.join(repository.path, file.path))
   return new Image(
     contents.toString('base64'),
     getMediaType(Path.extname(file.path)),
