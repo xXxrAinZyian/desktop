@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Account } from '../../models/account'
 import { API, IAPIOrganization } from '../../lib/api'
 import { TextBox } from '../lib/text-box'

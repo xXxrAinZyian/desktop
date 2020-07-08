@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import { PathLabel } from '../lib/path-label'
 import { Octicon, iconForStatus } from '../octicons'

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { IStashEntry, StashedChangesLoadStates } from '../../models/stash-entry'
 import { FileList } from '../history/file-list'
 import { Dispatcher } from '../dispatcher'

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { WelcomeStep } from './welcome'
 import { Button } from '../lib/button'
 import { SignIn } from '../lib/sign-in'

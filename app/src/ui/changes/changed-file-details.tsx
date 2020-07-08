@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { PathLabel } from '../lib/path-label'
 import { AppFileStatus } from '../../models/status'
 import { IDiff, DiffType } from '../../models/diff'

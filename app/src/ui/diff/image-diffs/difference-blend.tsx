@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { ImageContainer } from './image-container'
 import { ICommonImageDiffProperties } from './modified-image-diff'
 

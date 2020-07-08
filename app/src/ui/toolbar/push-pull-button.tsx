@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import { Progress } from '../../models/progress'
 import { Repository } from '../../models/repository'

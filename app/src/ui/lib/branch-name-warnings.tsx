@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Branch, BranchType } from '../../models/branch'
 
 import { Row } from './row'

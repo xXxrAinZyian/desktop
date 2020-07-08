@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import classNames from 'classnames'
 import { ComputedAction } from '../../models/computed-action'
 import { assertNever } from '../../lib/fatal-error'

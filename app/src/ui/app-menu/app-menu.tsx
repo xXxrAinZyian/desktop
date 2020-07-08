@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { MenuPane } from './menu-pane'
 import { Dispatcher } from '../dispatcher'
 import { IMenu, MenuItem, ISubmenuItem } from '../../models/app-menu'

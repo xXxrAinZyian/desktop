@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Loading } from './loading'
 import { Form } from './form'
 import { TextBox } from './text-box'

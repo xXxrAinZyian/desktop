@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Ref } from '../lib/ref'
 import { Octicon, OcticonSymbol } from '../octicons'
 import { Branch } from '../../models/branch'

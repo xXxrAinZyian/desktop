@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { clipboard } from 'electron'
 import { Editor, Doc } from 'codemirror'
 

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Dispatcher } from '../dispatcher'
 import { OcticonSymbol } from '../octicons'
 import { Repository } from '../../models/repository'

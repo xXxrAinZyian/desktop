@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { DialogContent } from '../dialog'
 import { TextArea } from '../lib/text-area'
 import { LinkButton } from '../lib/link-button'

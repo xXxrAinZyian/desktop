@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import memoize from 'memoize-one'
 import { GitHubRepository } from '../../models/github-repository'
 import { Commit } from '../../models/commit'

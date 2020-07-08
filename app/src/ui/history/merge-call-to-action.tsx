@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import { ICompareBranch, HistoryTabMode } from '../../lib/app-state'
 import { Repository } from '../../models/repository'

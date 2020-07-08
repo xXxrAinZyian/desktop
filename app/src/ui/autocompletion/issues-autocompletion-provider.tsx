@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { IAutocompletionProvider } from './index'
 import { IssuesStore } from '../../lib/stores'
 import { Dispatcher } from '../dispatcher'

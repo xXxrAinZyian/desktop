@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { LinkButton } from '../lib/link-button'
 import { Octicon, OcticonSymbol } from '../octicons'
 import { Loading } from './loading'

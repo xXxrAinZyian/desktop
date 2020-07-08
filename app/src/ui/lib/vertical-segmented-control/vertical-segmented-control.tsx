@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { createUniqueId, releaseUniqueId } from '../id-pool'
 import { SegmentedItem } from './segmented-item'
 

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import { CloningRepository } from '../models/cloning-repository'
 import { ICloneProgress } from '../models/progress'

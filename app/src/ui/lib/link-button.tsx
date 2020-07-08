@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { shell } from '../../lib/app-shell'
 import classNames from 'classnames'
 

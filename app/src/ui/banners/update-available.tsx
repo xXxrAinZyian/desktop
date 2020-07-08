@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Dispatcher } from '../dispatcher/index'
 import { LinkButton } from '../lib/link-button'
 import { updateStore } from '../lib/update-store'

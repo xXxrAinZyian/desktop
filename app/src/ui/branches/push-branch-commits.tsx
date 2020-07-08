@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Dispatcher } from '../dispatcher'
 import { Branch } from '../../models/branch'
 import { Dialog, DialogContent, DialogFooter } from '../dialog'

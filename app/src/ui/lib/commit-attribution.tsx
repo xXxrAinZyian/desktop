@@ -1,5 +1,5 @@
 import { Commit } from '../../models/commit'
-import * as React from 'react'
+import React from 'react'
 import { CommitIdentity } from '../../models/commit-identity'
 import { GitAuthor } from '../../models/git-author'
 import { GitHubRepository } from '../../models/github-repository'

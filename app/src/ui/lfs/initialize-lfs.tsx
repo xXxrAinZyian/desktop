@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Repository } from '../../models/repository'
 import { Dialog, DialogContent, DialogFooter } from '../dialog'
 import { PathText } from '../lib/path-text'

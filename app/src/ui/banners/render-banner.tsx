@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import { assertNever } from '../../lib/fatal-error'
 

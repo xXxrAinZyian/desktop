@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { WelcomeStep } from './welcome'
 import { Account } from '../../models/account'
 import { ConfigureGitUser } from '../lib/configure-git-user'

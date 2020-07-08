@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { ForkContributionTarget } from '../../models/workflow-preferences'
 import { RepositoryWithForkedGitHubRepository } from '../../models/repository'
 

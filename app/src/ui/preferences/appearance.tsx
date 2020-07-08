@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { supportsDarkMode, isDarkModeEnabled } from '../lib/dark-theme'
 import { Checkbox, CheckboxValue } from '../lib/checkbox'
 import { Row } from '../lib/row'

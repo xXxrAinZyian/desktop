@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Octicon, OcticonSymbol } from '../octicons'
 import { APIRefState, IAPIRefStatus } from '../../lib/api'
 import { assertNever } from '../../lib/fatal-error'

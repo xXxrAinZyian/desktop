@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Button } from '../lib/button'
 import { Loading } from '../lib/loading'
 import { RebaseConflictState } from '../../lib/app-state'

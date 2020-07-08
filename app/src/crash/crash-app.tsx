@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { ipcRenderer, remote } from 'electron'
 import { ICrashDetails, ErrorType } from './shared'
 import { TitleBar } from '../ui/window/title-bar'

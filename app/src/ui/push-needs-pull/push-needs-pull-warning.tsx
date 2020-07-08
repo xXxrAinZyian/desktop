@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Dispatcher } from '../dispatcher'
 import { DialogFooter, DialogContent, Dialog } from '../dialog'
 import { FetchType } from '../../models/fetch'

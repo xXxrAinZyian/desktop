@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Checkbox, CheckboxValue } from '../lib/checkbox'
 import { Dialog, DialogContent, DialogFooter } from '../dialog'
 import { Ref } from '../lib/ref'

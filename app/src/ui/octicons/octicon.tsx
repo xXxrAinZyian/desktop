@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { OcticonSymbol } from './octicons.generated'
 import classNames from 'classnames'
 import { createUniqueId, releaseUniqueId } from '../lib/id-pool'

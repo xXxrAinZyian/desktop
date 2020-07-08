@@ -1,6 +1,6 @@
 import '../lib/logging/renderer/install'
 
-import * as React from 'react'
+import React from 'react'
 import * as ReactDOM from 'react-dom'
 import * as Path from 'path'
 

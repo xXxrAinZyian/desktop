@@ -1,5 +1,5 @@
 import * as Path from 'path'
-import * as React from 'react'
+import React from 'react'
 
 import { remote } from 'electron'
 import { readdir } from 'fs-extra'

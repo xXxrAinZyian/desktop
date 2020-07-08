@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { IRemote } from '../../models/remote'
 import { TextBox } from '../lib/text-box'
 import { DialogContent } from '../dialog'

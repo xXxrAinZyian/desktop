@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Commit } from '../../models/commit'
 import { GitHubRepository } from '../../models/github-repository'
 import { IAvatarUser, getAvatarUsersForCommit } from '../../models/avatar'

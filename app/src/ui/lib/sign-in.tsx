@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { AuthenticationForm } from './authentication-form'
 import { assertNever } from '../../lib/fatal-error'
 import { TwoFactorAuthentication } from '../lib/two-factor-authentication'

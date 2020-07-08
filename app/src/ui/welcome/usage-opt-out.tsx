@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Dispatcher } from '../dispatcher'
 import { WelcomeStep } from './welcome'
 import { LinkButton } from '../lib/link-button'

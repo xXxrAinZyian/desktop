@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { encodePathAsUrl } from '../../lib/path'
 import { IAvatarUser } from '../../models/avatar'
 import { fetchAvatarUrl } from './avatar-in-memory-cache'

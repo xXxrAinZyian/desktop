@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { TabBar, TabBarType } from '../tab-bar'
 import { Remote } from './remote'
 import { GitIgnore } from './git-ignore'

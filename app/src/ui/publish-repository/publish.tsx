@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { PublishRepository } from './publish-repository'
 import { Dispatcher } from '../dispatcher'
 import { Account } from '../../models/account'

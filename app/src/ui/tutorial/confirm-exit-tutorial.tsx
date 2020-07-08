@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import { DialogFooter, DialogContent, Dialog } from '../dialog'
 import { OkCancelButtonGroup } from '../dialog/ok-cancel-button-group'

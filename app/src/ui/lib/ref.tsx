@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 /**
  * A simple style component used to mark up arbitrary references such as

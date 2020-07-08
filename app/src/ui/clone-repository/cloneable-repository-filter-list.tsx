@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Account } from '../../models/account'
 import { FilterList, IFilterListGroup } from '../lib/filter-list'
 import { IAPIRepository, getDotComAPIEndpoint, getHTMLURL } from '../../lib/api'

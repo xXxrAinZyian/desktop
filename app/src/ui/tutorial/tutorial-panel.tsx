@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { join } from 'path'
 import { LinkButton } from '../lib/link-button'
 import { Button } from '../lib/button'

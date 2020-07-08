@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { ApplicationTheme, getThemeName } from './lib/application-theme'
 
 interface IAppThemeProps {

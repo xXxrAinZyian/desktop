@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { TextBox } from '../lib/text-box'
 import { Button } from '../lib/button'
 import { Row } from '../lib/row'

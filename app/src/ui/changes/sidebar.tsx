@@ -1,5 +1,5 @@
 import * as Path from 'path'
-import * as React from 'react'
+import React from 'react'
 
 import { ChangesList } from './changes-list'
 import { DiffSelectionType } from '../../models/diff'

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 /**
  * A container component for footer content in a Dialog.

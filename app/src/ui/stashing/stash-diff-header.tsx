@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { IStashEntry } from '../../models/stash-entry'
 import { Dispatcher } from '../dispatcher'
 import { Repository } from '../../models/repository'

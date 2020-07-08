@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { OkCancelButtonGroup } from './ok-cancel-button-group'
 import { DialogFooter } from './footer'
 

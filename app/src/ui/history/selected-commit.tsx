@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { clipboard } from 'electron'
 import { pathExists } from 'fs-extra'
 import * as Path from 'path'

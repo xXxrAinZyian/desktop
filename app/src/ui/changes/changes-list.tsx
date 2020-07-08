@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import * as Path from 'path'
 
 import { IGitHubUser } from '../../lib/databases'

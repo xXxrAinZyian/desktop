@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Octicon, OcticonSymbol } from '../octicons'
 import { TextBox, ITextBoxProps } from './text-box'
 import classNames from 'classnames'

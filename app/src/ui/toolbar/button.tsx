@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Octicon, OcticonSymbol } from '../octicons'
 import classNames from 'classnames'
 import { assertNever } from '../../lib/fatal-error'
