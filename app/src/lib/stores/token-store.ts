@@ -1,15 +1,15 @@
-import * as keytar from 'keytar'
+import { setPassword, getPassword, deletePassword } from 'keytar'
 
 function setItem(key: string, login: string, value: string) {
-  return keytar.setPassword(key, login, value)
+  return setPassword(key, login, value)
 }
 
 function getItem(key: string, login: string) {
-  return keytar.getPassword(key, login)
+  return getPassword(key, login)
 }
 
 function deleteItem(key: string, login: string) {
-  return keytar.deletePassword(key, login)
+  return deletePassword(key, login)
 }
 
 export const TokenStore = {

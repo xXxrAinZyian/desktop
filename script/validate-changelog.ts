@@ -3,7 +3,7 @@
 import * as Path from 'path'
 import * as Fs from 'fs'
 
-import * as Ajv from 'ajv'
+import Ajv from 'ajv'
 
 function handleError(error: string) {
   console.error(error)
