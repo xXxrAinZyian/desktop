@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Path from 'path'
+import Path from 'path'
 import { clamp } from '../../lib/clamp'
 
 interface IPathTextProps {

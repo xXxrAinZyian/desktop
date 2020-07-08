@@ -1,5 +1,5 @@
 import { DiffHunk, DiffLine } from '../../models/diff'
-import * as CodeMirror from 'codemirror'
+import CodeMirror, { EditorConfiguration, StringStream } from 'codemirror'
 import { diffLineForIndex } from './diff-explorer'
 import { ITokens } from '../../lib/highlighter/types'
 
@@ -39,7 +39,7 @@ interface IState {
   diffLineIndex: number
 }
 
-function skipLine(stream: CodeMirror.StringStream, state: IState) {
+function skipLine(stream: StringStream, state: IState) {
   stream.skipToEnd()
   state.diffLineIndex++
   return null
@@ -104,10 +104,7 @@ export class DiffSyntaxMode {
     state.diffLineIndex++
   }
 
-  public token = (
-    stream: CodeMirror.StringStream,
-    state: IState
-  ): string | null => {
+  public token = (stream: StringStream, state: IState): string | null => {
     // The first character of a line in a diff is always going to
     // be the diff line marker so we always take care of that first.
     if (stream.sol()) {
@@ -173,7 +170,7 @@ export class DiffSyntaxMode {
 }
 
 CodeMirror.defineMode(DiffSyntaxMode.ModeName, function (
-  config: CodeMirror.EditorConfiguration,
+  config: EditorConfiguration,
   modeOptions?: IDiffSyntaxModeOptions
 ) {
   if (!modeOptions) {

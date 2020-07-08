@@ -1,9 +1,9 @@
 /* eslint-disable no-sync */
 /// <reference path="./globals.d.ts" />
 
-import * as path from 'path'
-import * as cp from 'child_process'
-import * as fs from 'fs-extra'
+import path from 'path'
+import cp from 'child_process'
+import fs from 'fs-extra'
 import packager from 'electron-packager'
 
 import { externals } from '../app/webpack.common'

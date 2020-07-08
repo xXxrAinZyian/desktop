@@ -1,10 +1,9 @@
-import * as FSE from 'fs-extra'
-import * as Os from 'os'
-import * as Path from 'path'
+import FSE from 'fs-extra'
+import Os from 'os'
+import Path from 'path'
 import { Disposable } from 'event-kit'
 import { Tailer } from './tailer'
-
-const byline = require('byline')
+import byline from 'byline'
 
 /**
  * Get a path to a temp file using the given name. Note that the file itself

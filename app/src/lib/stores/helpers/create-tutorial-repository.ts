@@ -1,4 +1,4 @@
-import * as Path from 'path'
+import Path from 'path'
 
 import { Account } from '../../../models/account'
 import { writeFile, pathExists, ensureDir } from 'fs-extra'

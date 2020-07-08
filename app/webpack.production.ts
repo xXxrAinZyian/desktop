@@ -1,6 +1,6 @@
 import * as common from './webpack.common'
 
-import * as webpack from 'webpack'
+import webpack from 'webpack'
 import merge from 'webpack-merge'
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer'

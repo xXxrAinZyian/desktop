@@ -1,6 +1,6 @@
 import { GitProcess } from 'dugite'
-import * as FSE from 'fs-extra'
-import * as Path from 'path'
+import FSE from 'fs-extra'
+import Path from 'path'
 
 import { IStatusResult, getChangedFiles } from '../../../../src/lib/git'
 import {

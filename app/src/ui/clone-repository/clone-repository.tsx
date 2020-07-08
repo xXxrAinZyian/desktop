@@ -1,4 +1,4 @@
-import * as Path from 'path'
+import Path from 'path'
 import React from 'react'
 
 import { remote } from 'electron'

@@ -1,8 +1,8 @@
 import '../lib/logging/renderer/install'
 
 import React from 'react'
-import * as ReactDOM from 'react-dom'
-import * as Path from 'path'
+import ReactDOM from 'react-dom'
+import Path from 'path'
 
 import moment from 'moment'
 

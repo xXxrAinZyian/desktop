@@ -7,8 +7,8 @@
  *
  */
 
-import * as ts from 'typescript'
-import * as Lint from 'tslint'
+import ts from 'typescript'
+import Lint from 'tslint'
 
 interface IExpectedParameter {
   readonly name: string

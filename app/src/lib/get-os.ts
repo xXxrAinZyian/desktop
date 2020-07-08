@@ -1,5 +1,5 @@
 import { compare } from 'compare-versions'
-import * as OS from 'os'
+import OS from 'os'
 import { UAParser } from 'ua-parser-js'
 
 /** Get the OS we're currently running on. */

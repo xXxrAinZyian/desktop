@@ -1,5 +1,5 @@
-import * as Path from 'path'
-import * as Fs from 'fs'
+import Path from 'path'
+import Fs from 'fs'
 
 import { getProductName, getVersion } from '../app/package-info'
 import { getReleaseBranchName } from './build-platforms'

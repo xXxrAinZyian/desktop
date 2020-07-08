@@ -1,5 +1,5 @@
-import * as Path from 'path'
-import * as Fs from 'fs'
+import Path from 'path'
+import Fs from 'fs'
 import React from 'react'
 import { getAppPath } from '../lib/app-proxy'
 import { Loading } from '../lib/loading'

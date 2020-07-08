@@ -7,7 +7,7 @@ import { URLActionType } from '../lib/parse-app-url'
 import { ILaunchStats } from '../lib/stats'
 import { menuFromElectronMenu } from '../models/app-menu'
 import { now } from './now'
-import * as path from 'path'
+import path from 'path'
 import windowStateKeeper from 'electron-window-state'
 
 export class AppWindow {

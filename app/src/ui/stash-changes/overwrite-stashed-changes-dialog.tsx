@@ -1,4 +1,4 @@
-import React = require('react')
+import React from 'react'
 import { Dialog, DialogContent, DialogFooter } from '../dialog'
 import { Repository } from '../../models/repository'
 import { Branch } from '../../models/branch'

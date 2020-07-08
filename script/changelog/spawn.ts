@@ -1,4 +1,4 @@
-import * as ChildProcess from 'child_process'
+import ChildProcess from 'child_process'
 
 export function spawn(
   cmd: string,

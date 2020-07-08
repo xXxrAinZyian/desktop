@@ -1,4 +1,4 @@
-import * as fuzzAldrin from 'fuzzaldrin-plus'
+import fuzzAldrin from 'fuzzaldrin-plus'
 
 import { compareDescending } from './compare'
 

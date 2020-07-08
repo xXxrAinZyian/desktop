@@ -1,4 +1,4 @@
-import * as URL from 'url'
+import URL from 'url'
 import { testForInvalidChars } from './sanitize-ref-name'
 
 export interface IOAuthAction {

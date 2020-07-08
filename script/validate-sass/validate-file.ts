@@ -1,5 +1,5 @@
-import * as readline from 'readline'
-import * as fs from 'fs'
+import readline from 'readline'
+import fs from 'fs'
 
 export type SassVariable = {
   readonly fileName: string

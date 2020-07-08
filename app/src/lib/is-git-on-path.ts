@@ -1,5 +1,5 @@
 import { spawn, SpawnOptionsWithoutStdio } from 'child_process'
-import * as Path from 'path'
+import Path from 'path'
 
 function captureCommandOutput(
   command: string,

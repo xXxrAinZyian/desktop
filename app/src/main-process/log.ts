@@ -1,5 +1,5 @@
-import * as Path from 'path'
-import * as winston from 'winston'
+import Path from 'path'
+import winston from 'winston'
 
 import { getLogDirectoryPath } from '../lib/logging/get-log-path'
 import { LogLevel } from '../lib/logging/log-level'

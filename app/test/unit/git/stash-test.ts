@@ -1,5 +1,5 @@
-import * as FSE from 'fs-extra'
-import * as path from 'path'
+import FSE from 'fs-extra'
+import path from 'path'
 import { Repository } from '../../../src/models/repository'
 import { setupEmptyRepository } from '../../helpers/repositories'
 import { GitProcess } from 'dugite'

@@ -5,9 +5,9 @@
  * and generates the TypeScript class containing just what Desktop needs.
  */
 
-import * as fs from 'fs'
-import * as Path from 'path'
-import * as cp from 'child_process'
+import fs from 'fs'
+import Path from 'path'
+import cp from 'child_process'
 
 import xml2js = require('xml2js')
 import toCamelCase = require('to-camel-case')

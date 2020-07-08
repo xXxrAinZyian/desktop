@@ -1,4 +1,4 @@
-import * as FSE from 'fs-extra'
+import FSE from 'fs-extra'
 import { getTempFilePath } from '../file-system'
 import { IGitProgress, IGitProgressInfo, IGitOutput } from './git'
 

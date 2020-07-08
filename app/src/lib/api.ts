@@ -1,5 +1,5 @@
-import * as OS from 'os'
-import * as URL from 'url'
+import OS from 'os'
+import URL from 'url'
 import { Account } from '../models/account'
 
 import {

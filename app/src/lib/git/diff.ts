@@ -1,5 +1,5 @@
-import * as Path from 'path'
 import * as fileSystem from '../../lib/file-system'
+import Path from 'path'
 
 import { getBlobContents } from './show'
 

@@ -1,6 +1,6 @@
 import { join } from 'path'
 import { spawn, SpawnOptions } from 'child_process'
-import * as Fs from 'fs'
+import Fs from 'fs'
 import { getDistPath, getExecutableName } from './dist-info'
 
 const distPath = getDistPath()

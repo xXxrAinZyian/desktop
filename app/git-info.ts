@@ -1,5 +1,5 @@
-import * as Fs from 'fs'
-import * as Path from 'path'
+import Fs from 'fs'
+import Path from 'path'
 
 /**
  * Attempt to find a ref in the .git/packed-refs file, which is often

@@ -1,5 +1,5 @@
-import * as Path from 'path'
-import * as Fs from 'fs'
+import Path from 'path'
+import Fs from 'fs'
 
 const fileUriToPath: (uri: string) => string = require('file-uri-to-path')
 const sourceMapSupport = require('source-map-support')

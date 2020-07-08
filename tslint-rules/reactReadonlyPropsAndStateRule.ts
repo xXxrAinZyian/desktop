@@ -10,8 +10,8 @@
  * get compiler support for that fact.
  */
 
-import * as ts from 'typescript'
-import * as Lint from 'tslint'
+import ts from 'typescript'
+import Lint from 'tslint'
 
 // The walker takes care of all the work.
 class ReactReadonlyPropsAndStateWalker extends Lint.RuleWalker {

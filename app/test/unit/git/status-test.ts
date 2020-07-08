@@ -1,5 +1,5 @@
-import * as path from 'path'
-import * as FSE from 'fs-extra'
+import path from 'path'
+import FSE from 'fs-extra'
 import { GitProcess } from 'dugite'
 
 import { Repository } from '../../../src/models/repository'
@@ -17,7 +17,7 @@ import {
   GitStatusEntry,
   isManualConflict,
 } from '../../../src/models/status'
-import * as temp from 'temp'
+import temp from 'temp'
 import { getStatus } from '../../../src/lib/git'
 import { isConflictedFile } from '../../../src/lib/status'
 import { setupLocalConfig } from '../../helpers/local-config'

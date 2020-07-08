@@ -1,4 +1,4 @@
-import * as Url from 'url'
+import Url from 'url'
 import { shell } from 'electron'
 
 /**

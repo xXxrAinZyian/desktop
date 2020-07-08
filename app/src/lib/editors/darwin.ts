@@ -1,4 +1,4 @@
-import * as Path from 'path'
+import Path from 'path'
 import { pathExists } from 'fs-extra'
 import { IFoundEditor } from './found-editor'
 import { assertNever } from '../fatal-error'

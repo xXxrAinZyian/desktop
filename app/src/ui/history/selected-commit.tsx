@@ -1,7 +1,7 @@
 import React from 'react'
 import { clipboard } from 'electron'
 import { pathExists } from 'fs-extra'
-import * as Path from 'path'
+import Path from 'path'
 
 import { Repository } from '../../models/repository'
 import { CommittedFileChange } from '../../models/status'

@@ -11,7 +11,7 @@ import { getDotComAPIEndpoint } from '../api'
 import { IGitAccount } from '../../models/git-account'
 
 import * as GitPerf from '../../ui/lib/git-perf'
-import * as Path from 'path'
+import Path from 'path'
 import { Repository } from '../../models/repository'
 import { getConfigValue, getGlobalConfigValue } from './config'
 import { isErrnoException } from '../errno-exception'

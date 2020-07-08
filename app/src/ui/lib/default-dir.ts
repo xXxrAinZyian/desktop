@@ -1,4 +1,4 @@
-import * as Path from 'path'
+import Path from 'path'
 import { getDocumentsPath } from './app-proxy'
 
 const localStorageKey = 'last-clone-location'

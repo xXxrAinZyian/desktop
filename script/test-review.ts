@@ -1,6 +1,6 @@
 /* eslint-disable no-sync */
 
-import * as fs from 'fs'
+import fs from 'fs'
 import { getLogFiles } from './review-logs'
 
 function reviewLogs() {

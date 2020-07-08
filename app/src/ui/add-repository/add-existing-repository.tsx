@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Path from 'path'
+import Path from 'path'
 
 import { remote } from 'electron'
 import { Dispatcher } from '../dispatcher'
@@ -14,7 +14,7 @@ import { LinkButton } from '../lib/link-button'
 import { PopupType } from '../../models/popup'
 import { OkCancelButtonGroup } from '../dialog/ok-cancel-button-group'
 
-import untildify = require('untildify')
+import untildify from 'untildify'
 
 interface IAddExistingRepositoryProps {
   readonly dispatcher: Dispatcher

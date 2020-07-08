@@ -6,7 +6,7 @@ import CodeMirror, {
   Position,
   TextMarkerOptions,
 } from 'codemirror'
-import * as URL from 'url'
+import URL from 'url'
 import classNames from 'classnames'
 import { UserAutocompletionProvider, IUserHit } from '../autocompletion'
 import { getDotComAPIEndpoint } from '../../lib/api'

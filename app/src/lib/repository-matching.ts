@@ -1,5 +1,5 @@
-import * as URL from 'url'
-import * as Path from 'path'
+import URL from 'url'
+import Path from 'path'
 
 import { CloningRepository } from '../models/cloning-repository'
 import { Repository } from '../models/repository'

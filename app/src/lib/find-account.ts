@@ -1,4 +1,4 @@
-import * as URL from 'url'
+import URL from 'url'
 import { getHTMLURL, API, getDotComAPIEndpoint } from './api'
 import { parseRemote, parseRepositoryIdentifier } from './remote-parsing'
 import { Account } from '../models/account'

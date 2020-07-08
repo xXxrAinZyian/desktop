@@ -1,4 +1,4 @@
-import * as Path from 'path'
+import Path from 'path'
 import { writeFile, readFile } from 'fs-extra'
 
 export interface ILicense {

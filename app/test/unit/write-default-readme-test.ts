@@ -1,5 +1,5 @@
-import * as FSE from 'fs-extra'
-import * as path from 'path'
+import FSE from 'fs-extra'
+import path from 'path'
 import { mkdirSync } from '../helpers/temp'
 
 import { writeDefaultReadme } from '../../src/ui/add-repository/write-default-readme'

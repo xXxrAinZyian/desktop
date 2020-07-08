@@ -1,5 +1,5 @@
 import { writeFile } from 'fs-extra'
-import * as Path from 'path'
+import Path from 'path'
 
 const DefaultReadmeName = 'README.md'
 

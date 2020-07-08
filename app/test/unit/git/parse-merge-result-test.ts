@@ -1,6 +1,6 @@
-import * as Path from 'path'
-import * as FSE from 'fs-extra'
-import * as glob from 'glob'
+import Path from 'path'
+import FSE from 'fs-extra'
+import glob from 'glob'
 
 import { parseMergeResult } from '../../../src/lib/merge-tree-parser'
 

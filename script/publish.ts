@@ -22,10 +22,10 @@ if (!currentTipSHA.toUpperCase().startsWith(releaseSHA!.toUpperCase())) {
   process.exit(0)
 }
 
-import * as Fs from 'fs'
+import Fs from 'fs'
 import { execSync } from 'child_process'
-import * as AWS from 'aws-sdk'
-import * as Crypto from 'crypto'
+import AWS from 'aws-sdk'
+import Crypto from 'crypto'
 import request from 'request'
 
 console.log('Packaging…')

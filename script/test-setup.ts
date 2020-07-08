@@ -1,7 +1,7 @@
 /* eslint-disable no-sync */
 
-import * as fs from 'fs'
-import * as cp from 'child_process'
+import fs from 'fs'
+import cp from 'child_process'
 import { getLogFiles } from './review-logs'
 import { getProductName } from '../app/package-info'
 import { getDistPath } from './dist-info'

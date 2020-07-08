@@ -1,5 +1,5 @@
-import * as Fs from 'fs'
-import * as Path from 'path'
+import Fs from 'fs'
+import Path from 'path'
 import { Disposable } from 'event-kit'
 import { Repository } from '../../models/repository'
 import {

@@ -1,5 +1,5 @@
 import { spawn, ChildProcess } from 'child_process'
-import * as Path from 'path'
+import Path from 'path'
 import { enumerateValues, HKEY, RegistryValueType } from 'registry-js'
 import { pathExists } from 'fs-extra'
 

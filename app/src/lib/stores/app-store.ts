@@ -1,4 +1,4 @@
-import * as Path from 'path'
+import Path from 'path'
 import { ipcRenderer, remote } from 'electron'
 import { pathExists } from 'fs-extra'
 import { escape } from 'querystring'

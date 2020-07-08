@@ -1,5 +1,5 @@
-import * as FSE from 'fs-extra'
-import * as Path from 'path'
+import FSE from 'fs-extra'
+import Path from 'path'
 
 import { git } from './core'
 import { GitError } from 'dugite'

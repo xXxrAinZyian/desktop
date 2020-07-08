@@ -1,5 +1,5 @@
 import { getNextPagePathWithIncreasingPageSize } from '../../src/lib/api'
-import * as URL from 'url'
+import URL from 'url'
 
 interface IPageInfo {
   per_page: number

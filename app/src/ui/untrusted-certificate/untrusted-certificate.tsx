@@ -1,5 +1,5 @@
 import React from 'react'
-import * as URL from 'url'
+import URL from 'url'
 import { Dialog, DialogContent, DialogFooter } from '../dialog'
 import { OkCancelButtonGroup } from '../dialog/ok-cancel-button-group'
 

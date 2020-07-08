@@ -1,5 +1,5 @@
-import * as Path from 'path'
-import * as FS from 'fs'
+import Path from 'path'
+import FS from 'fs'
 import { Repository } from '../../models/repository'
 import { getConfigValue } from './config'
 

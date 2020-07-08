@@ -24,8 +24,8 @@ import {
 } from '../../../src/models/diff'
 import { findInteractiveDiffRange } from '../../../src/ui/diff/diff-explorer'
 import { diffStringsUnified } from 'jest-diff'
-import * as FSE from 'fs-extra'
-import * as Path from 'path'
+import FSE from 'fs-extra'
+import Path from 'path'
 
 describe('git/apply', () => {
   describe('checkPatch()', () => {

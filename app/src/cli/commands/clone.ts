@@ -1,4 +1,4 @@
-import * as QueryString from 'querystring'
+import QueryString from 'querystring'
 import { URL } from 'url'
 
 import { CommandError } from '../util'

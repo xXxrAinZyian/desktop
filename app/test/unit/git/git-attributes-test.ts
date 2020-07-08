@@ -1,5 +1,5 @@
-import * as FSE from 'fs-extra'
-import * as Path from 'path'
+import FSE from 'fs-extra'
+import Path from 'path'
 
 import { setupEmptyRepository } from '../../helpers/repositories'
 import { writeGitAttributes } from '../../../src/ui/add-repository/git-attributes'

@@ -1,4 +1,4 @@
-import * as URL from 'url'
+import URL from 'url'
 
 /** The protocols over which we can connect to Enterprise Server instances. */
 const AllowedProtocols = new Set(['https:', 'http:'])

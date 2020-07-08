@@ -1,4 +1,4 @@
-import * as ChildProcess from 'child_process'
+import ChildProcess from 'child_process'
 
 export function openDesktop(url: string = '') {
   const env = { ...process.env }

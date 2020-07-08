@@ -1,4 +1,4 @@
-import * as URL from 'url'
+import URL from 'url'
 import { Account } from '../models/account'
 import { getDotComAPIEndpoint } from './api'
 

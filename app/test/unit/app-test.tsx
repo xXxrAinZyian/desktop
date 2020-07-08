@@ -1,6 +1,6 @@
 import React from 'react'
-import * as ReactDOM from 'react-dom'
-import * as TestUtils from 'react-dom/test-utils'
+import ReactDOM from 'react-dom'
+import TestUtils from 'react-dom/test-utils'
 
 import { App } from '../../src/ui/app'
 import { Dispatcher } from '../../src/ui/dispatcher'

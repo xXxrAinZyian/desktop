@@ -1,5 +1,5 @@
-import * as Path from 'path'
-import * as Os from 'os'
+import Path from 'path'
+import Os from 'os'
 
 import { pathExists, ensureDir, writeFile } from 'fs-extra'
 import { spawn, getPathSegments, setPathSegments } from '../lib/process/win32'

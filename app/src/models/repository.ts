@@ -1,4 +1,4 @@
-import * as Path from 'path'
+import Path from 'path'
 
 import { GitHubRepository, ForkedGitHubRepository } from './github-repository'
 import { IAheadBehind } from './branch'

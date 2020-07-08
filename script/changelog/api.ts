@@ -1,4 +1,4 @@
-import * as HTTPS from 'https'
+import HTTPS from 'https'
 
 export interface IAPIPR {
   readonly title: string

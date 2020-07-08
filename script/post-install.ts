@@ -1,6 +1,6 @@
 #!/usr/bin/env ts-node
 
-import * as Path from 'path'
+import Path from 'path'
 import { spawnSync, SpawnSyncOptions } from 'child_process'
 
 import glob from 'glob'

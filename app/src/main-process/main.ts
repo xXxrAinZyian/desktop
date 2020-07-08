@@ -1,8 +1,8 @@
 import '../lib/logging/main/install'
 
 import { app, Menu, ipcMain, BrowserWindow, shell } from 'electron'
-import * as Fs from 'fs'
-import * as URL from 'url'
+import Fs from 'fs'
+import URL from 'url'
 
 import { MenuLabelsEvent } from '../models/menu-labels'
 

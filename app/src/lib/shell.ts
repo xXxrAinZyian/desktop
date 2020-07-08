@@ -1,7 +1,7 @@
 /* eslint-disable no-sync */
 
-import * as ChildProcess from 'child_process'
-import * as os from 'os'
+import ChildProcess from 'child_process'
+import os from 'os'
 
 type IndexLookup = {
   [propName: string]: string

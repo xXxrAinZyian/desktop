@@ -1,4 +1,4 @@
-import * as URL from 'url'
+import URL from 'url'
 import { parseRemote } from './remote-parsing'
 import { getKeyForEndpoint } from './auth'
 import { TokenStore } from './stores/token-store'

@@ -1,7 +1,7 @@
 #!/usr/bin/env ts-node
 
-import * as Path from 'path'
-import * as Fs from 'fs'
+import Path from 'path'
+import Fs from 'fs'
 
 import Ajv from 'ajv'
 

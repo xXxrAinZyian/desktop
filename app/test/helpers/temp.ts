@@ -3,7 +3,7 @@
 /** Module for creating and managing temporary directories and files, using the
  * `temp` Node module
  */
-import * as temp from 'temp'
+import temp from 'temp'
 const _temp = temp.track()
 
 /**

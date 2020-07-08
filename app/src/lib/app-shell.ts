@@ -1,5 +1,5 @@
 import { shell as electronShell, ipcRenderer } from 'electron'
-import * as Path from 'path'
+import Path from 'path'
 
 import { Repository } from '../models/repository'
 

@@ -1,6 +1,6 @@
-import * as Os from 'os'
-import * as Path from 'path'
-import * as FSE from 'fs-extra'
+import Os from 'os'
+import Path from 'path'
+import FSE from 'fs-extra'
 import { GitProcess } from 'dugite'
 
 import { setupEmptyRepository } from '../../helpers/repositories'

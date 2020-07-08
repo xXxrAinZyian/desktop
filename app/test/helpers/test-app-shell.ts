@@ -2,7 +2,7 @@
 
 import { IAppShell } from '../../src/lib/app-shell'
 
-import * as Fs from 'fs'
+import Fs from 'fs'
 
 export const shell: IAppShell = {
   moveItemToTrash: (path: string): boolean => {

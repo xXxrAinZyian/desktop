@@ -1,5 +1,5 @@
 import { spawn as spawnInternal } from 'child_process'
-import * as Path from 'path'
+import Path from 'path'
 
 /** Get the path segments in the user's `Path`. */
 export async function getPathSegments(): Promise<ReadonlyArray<string>> {

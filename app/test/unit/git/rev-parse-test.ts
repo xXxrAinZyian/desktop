@@ -1,6 +1,6 @@
-import * as path from 'path'
-import * as FSE from 'fs-extra'
-import * as os from 'os'
+import path from 'path'
+import FSE from 'fs-extra'
+import os from 'os'
 
 import { Repository } from '../../../src/models/repository'
 import {

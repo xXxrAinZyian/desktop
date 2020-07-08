@@ -1,5 +1,5 @@
 import chalk from 'chalk'
-import * as Path from 'path'
+import Path from 'path'
 
 import { ICommandModule, mriArgv } from '../load-commands'
 import { openDesktop } from '../open-desktop'

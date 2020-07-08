@@ -19,8 +19,8 @@
  * <Resizable onReset={this.handleReset} />
  */
 
-import * as ts from 'typescript'
-import * as Lint from 'tslint'
+import ts from 'typescript'
+import Lint from 'tslint'
 
 // The walker takes care of all the work.
 class ReactNoUnboundDispatcherPropsWalker extends Lint.RuleWalker {

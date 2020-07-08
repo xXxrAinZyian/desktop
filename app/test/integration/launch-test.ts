@@ -3,7 +3,7 @@
 /// <reference types="node" />
 
 import { Application } from 'spectron'
-import * as path from 'path'
+import path from 'path'
 
 describe('App', function (this: any) {
   let app: Application

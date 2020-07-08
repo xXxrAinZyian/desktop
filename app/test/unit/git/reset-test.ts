@@ -1,4 +1,4 @@
-import * as path from 'path'
+import path from 'path'
 
 import { Repository } from '../../../src/models/repository'
 import { reset, resetPaths, GitResetMode } from '../../../src/lib/git/reset'
@@ -6,7 +6,7 @@ import { getStatusOrThrow } from '../../helpers/status'
 import { setupFixtureRepository } from '../../helpers/repositories'
 import { GitProcess } from 'dugite'
 
-import * as FSE from 'fs-extra'
+import FSE from 'fs-extra'
 
 describe('git/reset', () => {
   let repository: Repository
